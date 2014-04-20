@@ -1,0 +1,172 @@
+/* ==================== Ingredients Slidebar ==================== */
+div.component#HorizontalList {
+    height: 100%;
+    position: relative;
+    font-size: 0px;
+    border: 1px black solid;
+}
+
+div.button_HorizontalList {
+    width: 5%;
+    height: 100%;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    position: relative;
+    cursor:default;
+
+    webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    standard-user-select: none;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#leftButton {
+    float: left;
+    border-right: 1px black solid;
+}
+
+div#leftButton img {
+    width: 100%;
+    position: absolute;
+    margin: auto 0;
+    vertical-align: middle;
+    top: 0;
+    bottom: 0;
+}
+
+div#rightButton {
+    float: right;
+    border-left: 1px black solid;
+}
+
+div#rightButton img {
+    width: 100%;
+    position: absolute;
+    margin: auto 0;
+    vertical-align: middle;
+    top: 0;
+    bottom: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+div#Slidebar_HorizontalList {
+    vertical-align: top;
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+div#Slider_HorizontalList {
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+/* ==================== Items ==================== */
+.Horizontal_img {
+    max-height: 97%;
+    height:auto !important;
+    height:97%;
+}
+
+.HorizontalItem {
+    height: 100%;
+    display: inline-block;
+    border: 2px white solid;
+}
+
+.HorizontalItem:hover {
+    /*border-color: #3399FF;*/
+    border-color: black;
+}
+
+.HorizontalItem_HintItem {
+    background-color: white;
+    color: black;
+    font-size: medium;
+    text-align: center;
+    cursor:default;
+    width: 90%;
+    margin: 0 auto;
+    z-index: 1;
+
+    webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    standard-user-select: none;
+
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+
+.HorizontalItem_HintItem#PizzaName {
+}
+
+.HorizontalItem_HintItem#PizzaPrice {
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+}
+
+/* ==================== CheckCircle ==================== */
+.HorizontalItem_CheckCircle{
+    margin: 2px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+.HorizontalItem_CheckCircle img{
+    max-height: 20px;
+}
+
+/* ==================== Hint ==================== */
+.Hint_HorizontalList {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 2px black solid;
+    position: absolute;
+    border-radius: 10px; 
+    display: none;
+    z-index: 1;
+}
+
+.Hint_HorizontalList#PizzaName {
+    top: 0px;
+    left: 0px;    
+}
+
+.Hint_HorizontalList#PizzaPrice {
+    bottom: 0px;
+    left: 0px;    
+}

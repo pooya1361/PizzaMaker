@@ -1,0 +1,123 @@
+@CHARSET "windows-1256";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+html { height: 100%; }
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#page {
+    background-color: rgba(235, 235, 235, 0.71);
+    padding: 30px;
+    margin: auto;
+    width: 85%;
+}
+
+#header {
+    background-image: url('mWTwr6O.jpg');
+    position: relative;
+    height: 150px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+
+#content {
+    margin: 20px auto 10px auto;
+    border: 3px ridge;
+    background-image: url('images/Background-perspective.jpg');
+    background-size: cover;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 0px;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    width: 260px;
+    -webkit-transform: rotate(-8deg);
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: 'courier';
+}
+
+/* ==================== Menu ==================== */
+#menu_band {
+    background-color: #FFFFCC;
+    display: inline-block;
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    bottom: -15px;
+}
+
+#menu {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+#menu ul {
+    list-style: none;
+    position: relative;
+    left: 50%;
+}
+
+#menu ul li {
+    background-color: #FFFFCC;
+    margin: 0px;
+    display: inline;
+    float: left;
+    position: relative;
+    padding: 0px;
+}
+
+#menu ul li a {
+    display: inline-block;
+    line-height: 49px;
+    padding: 0 14px;
+    color: #3399FF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+}
+
+#menu ul li a:hover {
+    background: #424242;
+    cursor: pointer;
+}
+/*
+.sub-menu {
+        display: none;
+        overflow: hidden;
+        filter: alpha(opacity =                                       0);
+}
+
+.sub-menu li {
+        float: none;
+        display: list-item;
+        color: lime;
+}
+
+/*
+.portfolio:hover + .submenu{
+        background: white;
+        display: inline-block;
+}
+*/

@@ -1,0 +1,219 @@
+div.component#VerticalList {
+    width: 100%;
+    max-width: 150px;
+    height: 100%;
+    float: left;
+    position: relative;
+    font-size: 0px;
+    border: 1px black solid;
+}
+
+div.button_VerticalList {
+    width: 100%;
+    height: 10%;
+    /*max-height: 40px;*/
+    background-color: white;
+
+    webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    standard-user-select: none;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#upButton {
+    border-bottom: 1px black solid;
+}
+
+div#upButton img {
+    -moz-transform:rotate(90deg);
+    /* Safari and Chrome */
+    -webkit-transform:rotate(90deg);
+    /* Opera */
+    -o-transform:rotate(90deg);
+    /* IE9 */
+    -ms-transform:rotate(90deg);
+}
+
+div#downButton {
+    border-top: 1px black solid;
+}
+
+div#downButton img {
+    -moz-transform:rotate(-90deg);
+    /* Safari and Chrome */
+    -webkit-transform:rotate(-90deg);
+    /* Opera */
+    -o-transform:rotate(-90deg);
+    /* IE9 */
+    -ms-transform:rotate(-90deg);
+}
+
+img.UpDownArrow {
+    max-height: 100%;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    display: block;	
+}
+
+div#Slidebar_VerticalList {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+div#Slider_VerticalList {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    z-index: 3;
+}
+
+/*#ScrollHide_VerticalList {
+    overflow: hidden;
+    height: 100%;
+}*/
+
+
+/* ==================== Items ==================== */
+.Vertical_img {
+    max-width: 100%;
+}
+
+.VerticalItem {
+    display: inline-block;
+    border: 2px white solid;
+    max-width: 100%;
+}
+
+.VerticalItem:hover {
+    /*border-color: #3399FF;*/
+}
+
+.VerticalItem_CheckCircle{
+    margin: 2px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+.VerticalItem_CheckCircle img{
+    max-height: 20px;
+}
+
+/* ==================== Hint ==================== */
+.Hint_VerticalList {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 2px black solid;
+    position: absolute;
+    border-radius: 10px; 
+    display: none;
+    z-index: 2;
+}
+
+.Hint_VerticalList h2{
+    /*    background-color: white;
+        color: black;*/
+    font-size: medium;
+    text-align: center;
+    cursor:default;
+    /*    width: 90%;
+        margin: 0 auto;
+        right: 0px;
+        left: 0px;*/
+
+    webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    standard-user-select: none;
+
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+
+.Hint_VerticalList#IngreName {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+}
+
+.Hint_VerticalList#IngreDetails {
+    -webkit-transform: rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+}
+
+.VerticalDetailButton {
+    height: 36px;
+    width: 50%;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: large;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.VerticalDetailButton#Plus {
+    border-top-left-radius: 6px;
+}
+
+.VerticalDetailButton#Plus:hover {
+    background-color: #ccffcc;
+}
+
+.VerticalDetailButton#Minus {
+    border-top-right-radius: 6px;
+}
+
+.VerticalDetailButton#Minus:hover {
+    background-color: #ffcccc;
+}
+
+.VerticalDetailButton p {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    
+        webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    standard-user-select: none;
+
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}

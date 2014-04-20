@@ -1,0 +1,1148 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>chinchang/hint.css</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="chinchang/hint.css" name="twitter:title" /><meta content="hint.css - A tooltip library in CSS for your lovely websites." name="twitter:description" /><meta content="https://avatars.githubusercontent.com/u/379918" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars.githubusercontent.com/u/379918" property="og:image" /><meta content="chinchang/hint.css" property="og:title" /><meta content="https://github.com/chinchang/hint.css" property="og:url" /><meta content="hint.css - A tooltip library in CSS for your lovely websites." property="og:description" />
+
+    <meta name="hostname" content="github-fe139-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 2.1.0p0-github-tcmalloc (87c9373a41) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="82F3BB16:44D7:29F635:530E7AC3" name="octolytics-dimension-request_id" /><meta content="5113754" name="octolytics-actor-id" /><meta content="pooya1361" name="octolytics-actor-login" /><meta content="e332e58003e9338accd50d1bc6f2690a4a05c97dc065584fc70208619d651a40" name="octolytics-actor-hash" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="2mND62U6eP3qUwi46WSCb8vQANealuHa2W+h2X9vLtA=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-99f0c420247f036251131234f2df1eaaf2ddb386.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-80896c157f0cb78d636e793895f101dea5f2214b.css" media="all" rel="stylesheet" type="text/css" />
+    
+    
+
+
+      <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-01ab94ef47d6293597922a1fab60e274e1d8f37e.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-503e94cbf26ee02e8f8908f6cfda39f6b1947500.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="24062edff74e74a6d1daa0f9c82f64a1">
+
+      
+  <meta name="description" content="hint.css - A tooltip library in CSS for your lovely websites." />
+
+  <meta content="379918" name="octolytics-dimension-user_id" /><meta content="chinchang" name="octolytics-dimension-user_login" /><meta content="7379964" name="octolytics-dimension-repository_id" /><meta content="chinchang/hint.css" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="7379964" name="octolytics-dimension-repository_network_root_id" /><meta content="chinchang/hint.css" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/chinchang/hint.css/commits/master.atom" rel="alternate" title="Recent Commits to hint.css:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_in  env-production windows vis-public tipsy-tooltips">
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      <div class="header header-logged-in true">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+    
+    <a href="/notifications" aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s" data-gotokey="n">
+        <span class="mail-status all-read"></span>
+</a>
+
+      <div class="command-bar js-command-bar  in-repository">
+          <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    data-username="pooya1361"
+      data-repo="chinchang/hint.css"
+      data-branch="master"
+      data-sha="63881ea611949350dc66fc647249a6b9757087ca"
+  >
+
+    <input type="hidden" name="nwo" value="chinchang/hint.css" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target" role="button" aria-haspopup="true">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="help tooltipped tooltipped-s" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+        <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+            <li><a href="https://gist.github.com">Gist</a></li>
+            <li><a href="/blog">Blog</a></li>
+          <li><a href="https://help.github.com">Help</a></li>
+        </ul>
+      </div>
+
+    
+
+
+  <ul id="user-links">
+    <li>
+      <a href="/pooya1361" class="name">
+        <img alt="pooya1361" class=" js-avatar" data-user="5113754" height="20" src="https://avatars.githubusercontent.com/u/5113754" width="20" /> pooya1361
+      </a>
+    </li>
+
+    <li class="new-menu dropdown-toggle js-menu-container">
+      <a href="#" class="js-menu-target tooltipped tooltipped-s" aria-label="Create new...">
+        <span class="octicon octicon-plus"></span>
+        <span class="dropdown-arrow"></span>
+      </a>
+
+      <div class="new-menu-content js-menu-content">
+      </div>
+    </li>
+
+    <li>
+      <a href="/settings/profile" id="account_settings"
+        class="tooltipped tooltipped-s"
+        aria-label="Account settings ">
+        <span class="octicon octicon-tools"></span>
+      </a>
+    </li>
+    <li>
+      <a class="tooltipped tooltipped-s" href="/logout" data-method="post" id="logout" aria-label="Sign out">
+        <span class="octicon octicon-log-out"></span>
+      </a>
+    </li>
+
+  </ul>
+
+<div class="js-new-dropdown-contents hidden">
+  
+
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new"><span class="octicon octicon-repo-create"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+    <li class="section-title">
+      <span title="chinchang/hint.css">This repository</span>
+    </li>
+      <li>
+        <a href="/chinchang/hint.css/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+      </li>
+</ul>
+
+</div>
+
+
+    
+  </div>
+</div>
+
+      
+
+        
+
+
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="2mND62U6eP3qUwi46WSCb8vQANealuHa2W+h2X9vLtA=" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="7379964" />
+
+    <div class="select-menu js-menu-container js-select-menu">
+      <a class="social-count js-social-count" href="/chinchang/hint.css/watchers">
+        151
+      </a>
+      <span class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0" aria-haspopup="true">
+        <span class="js-select-button">
+          <span class="octicon octicon-eye-watch"></span>
+          Watch
+        </span>
+      </span>
+
+      <div class="select-menu-modal-holder">
+        <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notification status</span>
+            <span class="octicon octicon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container" role="menu">
+
+            <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                <h4>Not watching</h4>
+                <span class="description">You only receive notifications for conversations in which you participate or are @mentioned.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-watch"></span>
+                  Watch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                <h4>Watching</h4>
+                <span class="description">You receive notifications for all conversations in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-unwatch"></span>
+                  Unwatch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_ignore" name="do" type="radio" value="ignore" />
+                <h4>Ignoring</h4>
+                <span class="description">You do not receive any notifications for conversations in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-mute"></span>
+                  Stop ignoring
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+</form>
+    </li>
+
+  <li>
+  
+
+  <div class="js-toggler-container js-social-container starring-container ">
+    <a href="/chinchang/hint.css/unstar"
+      class="minibutton with-count js-toggler-target star-button starred"
+      aria-label="Unstar this repository" data-remote="true" data-method="post" rel="nofollow">
+      <span class="octicon octicon-star-delete"></span><span class="text">Unstar</span>
+    </a>
+
+    <a href="/chinchang/hint.css/star"
+      class="minibutton with-count js-toggler-target star-button unstarred"
+      aria-label="Star this repository" data-remote="true" data-method="post" rel="nofollow">
+      <span class="octicon octicon-star"></span><span class="text">Star</span>
+    </a>
+
+      <a class="social-count js-social-count" href="/chinchang/hint.css/stargazers">
+        2,630
+      </a>
+  </div>
+
+  </li>
+
+
+        <li>
+          <a href="/chinchang/hint.css/fork" class="minibutton with-count js-toggler-target fork-button lighter tooltipped-n" title="Fork this repo" rel="nofollow" data-method="post">
+            <span class="octicon octicon-git-branch-create"></span><span class="text">Fork</span>
+          </a>
+          <a href="/chinchang/hint.css/network" class="social-count">337</a>
+        </li>
+
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/chinchang" class="url fn" itemprop="url" rel="author"><span itemprop="title">chinchang</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/chinchang/hint.css" class="js-current-repository js-repo-home-link">hint.css</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="/chinchang/hint.css" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /chinchang/hint.css">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="/chinchang/hint.css/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /chinchang/hint.css/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>20</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="/chinchang/hint.css/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /chinchang/hint.css/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>1</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped tooltipped-w" aria-label="Wiki">
+          <a href="/chinchang/hint.css/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_wiki /chinchang/hint.css/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="/chinchang/hint.css/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /chinchang/hint.css/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="/chinchang/hint.css/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /chinchang/hint.css/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Network">
+        <a href="/chinchang/hint.css/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /chinchang/hint.css/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/chinchang/hint.css.git" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/chinchang/hint.css.git" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
+  <h3><strong>SSH</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="git@github.com:chinchang/hint.css.git" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="git@github.com:chinchang/hint.css.git" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/chinchang/hint.css" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/chinchang/hint.css" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+  <a href="github-windows://openRepo/https://github.com/chinchang/hint.css" class="minibutton sidebar-button">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+                <a href="/chinchang/hint.css/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   title="Download this repository as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description js-details-show">
+      <p>A tooltip library in CSS for your lovely websites.</p>
+    </div>
+
+    <div class="repository-website js-details-show">
+      <p><a href="http://kushagragour.in/lab/hint/" rel="nofollow">http://kushagragour.in/lab/hint/</a></p>
+    </div>
+
+
+</div>
+
+<div class="capped-box overall-summary ">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/chinchang/hint.css/commits/master">
+            <span class="num">
+              <span class="octicon octicon-history"></span>
+              117
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/chinchang/hint.css/branches">
+          <span class="num">
+            <span class="octicon octicon-git-branch"></span>
+            3
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/chinchang/hint.css/releases">
+          <span class="num">
+            <span class="octicon octicon-tag"></span>
+            9
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+          <a href="/chinchang/hint.css/graphs/contributors" class="js-deferred-content" data-url="/chinchang/hint.css/contributors_size">
+            <span class="num">
+              <span class="octicon octicon-organization"></span>
+            </span>
+            Fetching contributors
+          </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/chinchang/hint.css/search?l=css">
+                <span class="color-block language-color" style="background-color:#1f085e;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">83.8%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/chinchang/hint.css/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f15501;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">16.2%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+  </div>
+
+</div>
+
+  <div class="tooltipped tooltipped-s" aria-label="Show language statistics">
+    <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats"
+     style="background-color:#f15501">
+  <span class="language-color" style="width:83.8%; background-color:#1f085e;" itemprop="keywords">CSS</span><span class="language-color" style="width:16.2%; background-color:#f15501;" itemprop="keywords">JavaScript</span>
+    </a>
+  </div>
+
+
+
+
+<div class="file-navigation in-mid-page">
+    <a href="/chinchang/hint.css/compare" aria-label="Compare, review, create a pull request" class="minibutton compact primary tooltipped tooltipped-s" aria-label="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/19-tooltips-on-focus"
+                 data-name="19-tooltips-on-focus"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="19-tooltips-on-focus">19-tooltips-on-focus</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/dev"
+                 data-name="dev"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="dev">dev</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/v1.3.1"
+                 data-name="v1.3.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.3.1">v1.3.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/v1.3.0"
+                 data-name="v1.3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.3.0">v1.3.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/v1.2.2"
+                 data-name="v1.2.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.2.2">v1.2.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/v1.2.1"
+                 data-name="v1.2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.2.1">v1.2.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/v1.2.0"
+                 data-name="v1.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.2.0">v1.2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/v1.1.1"
+                 data-name="v1.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.1.1">v1.1.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/v1.1.0"
+                 data-name="v1.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.1.0">v1.1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/v1.0.1"
+                 data-name="v1.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.0.1">v1.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/chinchang/hint.css/tree/v1.0.0"
+                 data-name="v1.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v1.0.0">v1.0.0</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/chinchang/hint.css" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">hint.css</span></a></span></span><span class="separator"> / </span><form action="/chinchang/hint.css/new/master" aria-label="Fork this project and create a new file" class="js-new-blob-form tooltipped tooltipped-e new-file-link" method="post"><span aria-label="Fork this project and create a new file" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+
+
+<a href="/chinchang/hint.css/find/master"
+  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
+<div class="bubble files-bubble">
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/chinchang/hint.css/commit/5ff09413f2a097e0a18c569cf008683d1af43454" class="message" data-pjax="true" title="Merge pull request #62 from bitdeli-chef/master
+
+Add a Bitdeli Badge to README">Merge pull request</a> <a href="https://github.com/chinchang/hint.css/pull/62" class="issue-link" title="Add a Bitdeli Badge to README">#62</a> <a href="/chinchang/hint.css/commit/5ff09413f2a097e0a18c569cf008683d1af43454" class="message" data-pjax="true" title="Merge pull request #62 from bitdeli-chef/master
+
+Add a Bitdeli Badge to README">from bitdeli-chef/master</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>Add a Bitdeli Badge to README</pre></div>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="5ff09413f2a097e0a18c569cf008683d1af43454" data-copied-hint="copied!" title="Copy SHA"><span class="octicon octicon-clippy"></span></span>
+      <a href="/chinchang/hint.css/commit/5ff09413f2a097e0a18c569cf008683d1af43454" class="sha-block" data-pjax>latest commit <span class="sha">5ff09413f2</span></a>
+
+      <div class="authorship">
+        <img alt="chinchang" class="gravatar" height="20" src="https://1.gravatar.com/avatar/6be4e636e8aacd405bed5cd15124a875?d=https%3A%2F%2Fidenticons.github.com%2F391bd50b9ba413058105503e6b3e7072.png&amp;r=x&amp;s=140" width="20" />
+        <span class="author-name"><a href="/chinchang" data-skip-pjax="true" rel="author">chinchang</a></span>
+        authored <time class="js-relative-date updated" datetime="2013-12-21T13:55:22-08:00" title="2013-12-21 13:55:22">December 21, 2013</time>
+
+      </div>
+    </div>
+  </div>
+
+  <table class="files" data-pjax>
+
+    
+<tbody class=""
+  data-url="/chinchang/hint.css/file-list/master">
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/tree/master/src" class="js-directory-link" id="25d902c24283ab8cfbac54dfa101ad31-1c7cecc4a3971b881c3610fa76fd6badbae97974" title="src">src</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/abfe4ad4fe4d5d650be2dbc91ed4a3ce6839b7ab" class="message" data-pjax="true" title="Separate out font-size and padding as variables.
+
+Its now possible to create more variations for your tooltips
+by tweaking fontsizes and padding and everything else is handled
+for you.">Separate out font-size and padding as variables.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-11-23T06:34:39-08:00" title="2013-11-23 06:34:39">November 23, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-63669d05e981b3a7afa30959016c439733fc8e73" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/51c0eb1296d652d6ca08025d7c70c59c1df99060" class="message" data-pjax="true" title="add sublime project files to gitignore">add sublime project files to gitignore</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-02-23T06:11:36-08:00" title="2013-02-23 06:11:36">February 23, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/CONTRIBUTING.md" class="js-directory-link" id="6a3371457528722a734f3c51d9238c13-75bf9b7ada7cff9f89736271e6997e60e3c662df" title="CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/2cbaf5b23bf226e36129e2dd521b1e672fe6b498" class="message" data-pjax="true" title="v1.2.0 [Hotfix] add mailing list address">v1.2.0 [Hotfix] add mailing list address</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-03-03T11:50:49-08:00" title="2013-03-03 11:50:49">March 03, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/Gruntfile.js" class="js-directory-link" id="35b4a816e0441e6a375cd925af50752c-df7af01218eddfb81f964b48b99bdf53431691f0" title="Gruntfile.js">Gruntfile.js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/d2d136b776e364832c21cb3ffe3aa4a24dd78e2d" class="message" data-pjax="true" title="Add grunt watch task.">Add grunt watch task.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-11-23T06:33:31-08:00" title="2013-11-23 06:33:31">November 23, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/LICENSE-MIT" class="js-directory-link" id="7f0bdbc0a0545831259b66259ac6b604-7bd9f03e9d9b5615731d273866cbd928303f4a94" title="LICENSE-MIT">LICENSE-MIT</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/62b0d5e33e395944dafafa033a2b730790dff873" class="message" data-pjax="true" title="small tweaks">small tweaks</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-02-03T05:35:13-08:00" title="2013-02-03 05:35:13">February 03, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-36030282404f8331e1f6b499fa7f7392ea128e3e" title="README.md">README.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/8e730e1e519c74e8cca2604e79c51050f3557748" class="message" data-pjax="true" title="Add a Bitdeli badge to README">Add a Bitdeli badge to README</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-21T13:56:14-08:00" title="2013-12-21 13:56:14">December 21, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/bower.json" class="js-directory-link" id="0a08a7565aba4405282251491979bb6b-6689bde1bd0f3f38ec0d5b1c56a7f73b60a939f0" title="bower.json">bower.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/d5a916e625c92995b0f72cabdb3cea58fe70885d" class="message" data-pjax="true" title="[1.3.1] Bump version and update builds.">[1.3.1] Bump version and update builds.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-11-23T07:11:57-08:00" title="2013-11-23 07:11:57">November 23, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/component.json" class="js-directory-link" id="162d38b326426c84ac91e51f931105bb-f2f4df79a9e2434a1776e1fb0ae3f8157daa7b6e" title="component.json">component.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/d5a916e625c92995b0f72cabdb3cea58fe70885d" class="message" data-pjax="true" title="[1.3.1] Bump version and update builds.">[1.3.1] Bump version and update builds.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-11-23T07:11:57-08:00" title="2013-11-23 07:11:57">November 23, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/demo.html" class="js-directory-link" id="bf46f115a4de5512482237689d4a2c8a-3174e5fe0d3de50e5b6bdcd648e4ed6a0b8602ad" title="demo.html">demo.html</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/9da034163f6285fc3fa59d888d95f3c60503f750" class="message" data-pjax="true" title="Fix aligment and remove outline from anchors">Fix aligment and remove outline from anchors</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-08-04T13:50:51-07:00" title="2013-08-04 13:50:51">August 04, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/hint.css" class="js-directory-link" id="d2a6f926754d57893b241620fd692b11-7c7dfcbb318464b7475c00fb9b9e837999010547" title="hint.css">hint.css</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/d5a916e625c92995b0f72cabdb3cea58fe70885d" class="message" data-pjax="true" title="[1.3.1] Bump version and update builds.">[1.3.1] Bump version and update builds.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-11-23T07:11:57-08:00" title="2013-11-23 07:11:57">November 23, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/hint.min.css" class="js-directory-link" id="079b38863712b70cc7ca5fecd817ee61-cb57c5d43b0ce3da97cd42956d179a6a354d4216" title="hint.min.css">hint.min.css</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/d5a916e625c92995b0f72cabdb3cea58fe70885d" class="message" data-pjax="true" title="[1.3.1] Bump version and update builds.">[1.3.1] Bump version and update builds.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-11-23T07:11:57-08:00" title="2013-11-23 07:11:57">November 23, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-c19e57efbde45951b00a6986940f6e46b4a291a4" title="package.json">package.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/chinchang/hint.css/commit/d5a916e625c92995b0f72cabdb3cea58fe70885d" class="message" data-pjax="true" title="[1.3.1] Bump version and update builds.">[1.3.1] Bump version and update builds.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-11-23T07:11:57-08:00" title="2013-11-23 07:11:57">November 23, 2013</time></span></td>
+    </tr>
+</tbody>
+
+  </table>
+</div>
+
+  <div id="readme" class="clearfix announce instapaper_body md">
+    <span class="name">
+      <span class="octicon octicon-book"></span>
+      README.md
+    </span>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="hintcss-v131" class="anchor" href="#hintcss-v131"><span class="octicon octicon-link"></span></a>Hint.css [v1.3.1]</h1>
+
+<p><em>A tooltip library in CSS for your lovely websites</em></p>
+
+<p><code>hint.css</code> is written as a pure CSS resource using which you can create cool tooltips for your web app. It does not rely on JavaScript and rather uses <strong>data-* attribute</strong>, <strong>pseudo elements</strong>, <strong>content property</strong> and <strong>CSS3 transitions</strong> to create the tooltips. Also it uses <strong>BEM</strong> naming convention particularly for the modifiers.</p>
+
+<p><a href="http://kushagragour.in/blog/2013/02/years-first-side-project-hint/">Read more about it</a>.</p>
+
+<h3>
+<a name="try-it-out" class="anchor" href="#try-it-out"><span class="octicon octicon-link"></span></a>Try it out:</h3>
+
+<p><a href="http://kushagragour.in/lab/hint/">http://kushagragour.in/lab/hint/</a></p>
+
+<p>If you find this useful and want to show some love &amp; encouragement, I am on <a href="https://www.gittip.com/chinchang/">Gittip</a>.</p>
+
+<h2>
+<a name="get-started" class="anchor" href="#get-started"><span class="octicon octicon-link"></span></a>Get Started</h2>
+
+<p>Get the library using one of the following ways:</p>
+
+<ol>
+<li>
+<p><strong>Github</strong></p>
+
+<ul>
+<li>[unminified] : <a href="https://raw.github.com/chinchang/hint.css/master/hint.css">https://raw.github.com/chinchang/hint.css/master/hint.css</a>
+</li>
+<li>[minified] : <a href="https://raw.github.com/chinchang/hint.css/master/hint.min.css">https://raw.github.com/chinchang/hint.css/master/hint.min.css</a>
+</li>
+</ul>
+</li>
+</ol><ol>
+<li>
+<p><strong>Bower</strong></p>
+
+<pre><code>bower install hint.css
+</code></pre>
+</li>
+<li>
+<p><strong>CDN</strong></p>
+
+<p><a href="http://www.jsdelivr.com/#!hint.css">http://www.jsdelivr.com/#!hint.css</a></p>
+</li>
+</ol><p>Now include the library in the <em>HEAD</em> of your page:</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"hint.css"</span><span class="nt">&gt;&lt;/link&gt;</span>
+</pre></div>
+
+<p>or</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"hint.min.css"</span><span class="nt">&gt;&lt;/link&gt;</span>
+</pre></div>
+
+<p>Any element on your page which needs to have a tooltip has to be given at least one of the position classes: <code>hint--top</code>, <code>hint--bottom</code>, <code>hint--left</code>, <code>hint--right</code> to position the tooltip.</p>
+
+<div class="highlight highlight-html"><pre>Hello Sir, <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"hint--bottom"</span><span class="nt">&gt;</span>hover me.<span class="nt">&lt;/span&gt;</span>
+</pre></div>
+
+<p>The tooltip text needs to be given using the <code>data-hint</code> attribute on that element.</p>
+
+<div class="highlight highlight-html"><pre>Hello Sir, <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"hint--bottom"</span> <span class="na">data-hint=</span><span class="s">"Thank you!"</span><span class="nt">&gt;</span>hover me.<span class="nt">&lt;/span&gt;</span>
+</pre></div>
+
+<p>[ <strong>Note</strong>: The <code>hint</code> class is no more required and is deprecated. Tooltip is shown on elements which have the <code>data-hint</code> attribute instead.]</p>
+
+<p>Use it with other available modifiers in various combinations. Available modifiers:</p>
+
+<ul>
+<li><code>hint--error</code></li>
+<li><code>hint--info</code></li>
+<li><code>hint--warning</code></li>
+<li><code>hint--success</code></li>
+<li><code>hint--always</code></li>
+<li><code>hint--rounded</code></li>
+<li><code>hint--bounce</code></li>
+</ul><h2>
+<a name="changing-the-prefix-for-class-names" class="anchor" href="#changing-the-prefix-for-class-names"><span class="octicon octicon-link"></span></a>Changing the prefix for class names</h2>
+
+<p>Don't like BEM naming (<code>hint--</code>) or want to use your own prefix for the class names?</p>
+
+<p>Simply update <code>src/hint-variables.scss</code> and change the <code>$prefix</code> variable.
+To generate the css file, please read the <a href="/chinchang/hint.css/blob/master/CONTRIBUTING.md">contributing page</a>.</p>
+
+<h2>
+<a name="whos-using-this" class="anchor" href="#whos-using-this"><span class="octicon octicon-link"></span></a>Who's Using This?</h2>
+
+<ul>
+<li><a href="http://playground.webflow.com/">CSS3 Playground</a></li>
+<li><a href="https://www.bitcast.io/">BitCast</a></li>
+<li><a href="http://tridiv.com/">Tridiv</a></li>
+</ul><p>Are you using <strong>hint.css</strong> in your awesome project too? Let us know on the <a href="mailto:hintcss@googlegroups.com">mailing list</a>.</p>
+
+<h2>
+<a name="browser-support" class="anchor" href="#browser-support"><span class="octicon octicon-link"></span></a>Browser Support</h2>
+
+<p><strong>hint.css</strong> works on all latest browsers, though the transition effect is supported only on IE10+, Chrome 26+ and FF4+ at present.</p>
+
+<ul>
+<li>Chrome - basic + transition effects</li>
+<li>Firefox - basic + transition effects</li>
+<li>Opera - basic</li>
+<li>Safari - basic</li>
+<li>IE 10+ - basic + transition effects</li>
+<li>IE 8 &amp; 9 - basic</li>
+</ul><h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p><code>hint.css</code> is developed in SASS and the source files can be found in the <code>src/</code> directory.</p>
+
+<p>If you would like to create more types of tooltips/ fix bugs/ enhance the library etc. you are more than welcome to submit your pull requests.</p>
+
+<p><a href="/chinchang/hint.css/blob/master/CONTRIBUTING.md">Read more on contributing</a>.</p>
+
+<h2>
+<a name="changelog" class="anchor" href="#changelog"><span class="octicon octicon-link"></span></a>Changelog</h2>
+
+<p>See the <a href="https://github.com/chinchang/hint.css/wiki/Changelog">Changelog</a></p>
+
+<p>To catch all updates and discussion, join the mailing list: <strong><a href="mailto:hintcss@googlegroups.com">hintcss@googlegroups.com</a></strong>.</p>
+
+<p>To subscribe: <strong><a href="mailto:hintcss+subscribe@googlegroups.com">hintcss+subscribe@googlegroups.com</a></strong> or visit <a href="https://groups.google.com/forum/?fromgroups=#!forum/hintcss">here</a>.</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Copyright (c) 2013 Kushagra Gour
+Licensed under the <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
+
+<h2>
+<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
+
+<p>This doesn't make use of a lot of BEM methodology but big thanks to <a href="https://twitter.com/csswizardry">@csswizardry</a>, <a href="https://twitter.com/necolas">@necolas</a> for their awesome articles on BEM and to <a href="https://twitter.com/_joshnh">@joshnh</a> through whose work I came to know about it :)</p>
+
+<p><a href="https://bitdeli.com/free" title="Bitdeli Badge"><img src="https://github-camo.global.ssl.fastly.net/8fed91dff96f08f6bceafbd8ccee2d8d52a54b88/68747470733a2f2f64327765637a68766c38323376302e636c6f756466726f6e742e6e65742f6368696e6368616e672f68696e742e6373732f7472656e642e706e67" alt="Bitdeli Badge" data-canonical-src="https://d2weczhvl823v0.cloudfront.net/chinchang/hint.css/trend.png" style="max-width:100%;"></a></p></article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.06774s from github-fe139-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+
